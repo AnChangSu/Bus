@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Bus"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "Bus."
 
   # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #
 
   # s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+   s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Bus/Bus/*.{h,m}", "Bus/Bus/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "Bus/Bus/*.{h,m}", "Bus/Bus/**/*.{h,m}","Bus/Bus/**/**/*.{h,m}"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-   s.frameworks = "UIKit", "Foundation"
+  #  s.frameworks = "UIKit", "Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -130,7 +130,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"

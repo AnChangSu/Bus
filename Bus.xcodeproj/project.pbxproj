@@ -15,11 +15,13 @@
 		B1ADE8CC1F42D43900CFD1B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1ADE8CA1F42D43900CFD1B8 /* LaunchScreen.storyboard */; };
 		B1ADE8D71F42D43900CFD1B8 /* BusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8D61F42D43900CFD1B8 /* BusTests.m */; };
 		B1ADE8E21F42D43A00CFD1B8 /* BusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8E11F42D43A00CFD1B8 /* BusUITests.m */; };
-		B1ADE8F91F42D52E00CFD1B8 /* LDBusMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8F21F42D52E00CFD1B8 /* LDBusMediator.m */; };
-		B1ADE8FA1F42D52E00CFD1B8 /* LDBusMediatorTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8F41F42D52E00CFD1B8 /* LDBusMediatorTipViewController.m */; };
-		B1ADE8FB1F42D52E00CFD1B8 /* LDBusNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8F61F42D52E00CFD1B8 /* LDBusNavigator.m */; };
-		B1ADE8FC1F42D52E00CFD1B8 /* UIViewController+NavigationTip.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE8F81F42D52E00CFD1B8 /* UIViewController+NavigationTip.m */; };
 		B1ADE8FE1F42D55700CFD1B8 /* Bus.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B1ADE8FD1F42D55700CFD1B8 /* Bus.podspec */; };
+		B1ADE9011F42D6E800CFD1B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ADE9001F42D6E800CFD1B8 /* UIKit.framework */; };
+		B1ADE9031F42D6F000CFD1B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ADE9021F42D6F000CFD1B8 /* Foundation.framework */; };
+		B1ADE9101F42E4EC00CFD1B8 /* LDBusMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE9091F42E4EC00CFD1B8 /* LDBusMediator.m */; };
+		B1ADE9111F42E4EC00CFD1B8 /* LDBusMediatorTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE90B1F42E4EC00CFD1B8 /* LDBusMediatorTipViewController.m */; };
+		B1ADE9121F42E4EC00CFD1B8 /* LDBusNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE90D1F42E4EC00CFD1B8 /* LDBusNavigator.m */; };
+		B1ADE9131F42E4EC00CFD1B8 /* UIViewController+NavigationTip.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ADE90F1F42E4EC00CFD1B8 /* UIViewController+NavigationTip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,16 +58,18 @@
 		B1ADE8DD1F42D43A00CFD1B8 /* BusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1ADE8E11F42D43A00CFD1B8 /* BusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusUITests.m; sourceTree = "<group>"; };
 		B1ADE8E31F42D43A00CFD1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1ADE8F01F42D52E00CFD1B8 /* LDBusConnectorPrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusConnectorPrt.h; sourceTree = "<group>"; };
-		B1ADE8F11F42D52E00CFD1B8 /* LDBusMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusMediator.h; sourceTree = "<group>"; };
-		B1ADE8F21F42D52E00CFD1B8 /* LDBusMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusMediator.m; sourceTree = "<group>"; };
-		B1ADE8F31F42D52E00CFD1B8 /* LDBusMediatorTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusMediatorTipViewController.h; sourceTree = "<group>"; };
-		B1ADE8F41F42D52E00CFD1B8 /* LDBusMediatorTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusMediatorTipViewController.m; sourceTree = "<group>"; };
-		B1ADE8F51F42D52E00CFD1B8 /* LDBusNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusNavigator.h; sourceTree = "<group>"; };
-		B1ADE8F61F42D52E00CFD1B8 /* LDBusNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusNavigator.m; sourceTree = "<group>"; };
-		B1ADE8F71F42D52E00CFD1B8 /* UIViewController+NavigationTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationTip.h"; sourceTree = "<group>"; };
-		B1ADE8F81F42D52E00CFD1B8 /* UIViewController+NavigationTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationTip.m"; sourceTree = "<group>"; };
 		B1ADE8FD1F42D55700CFD1B8 /* Bus.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bus.podspec; sourceTree = SOURCE_ROOT; };
+		B1ADE9001F42D6E800CFD1B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1ADE9021F42D6F000CFD1B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1ADE9071F42E4EC00CFD1B8 /* LDBusConnectorPrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusConnectorPrt.h; sourceTree = "<group>"; };
+		B1ADE9081F42E4EC00CFD1B8 /* LDBusMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusMediator.h; sourceTree = "<group>"; };
+		B1ADE9091F42E4EC00CFD1B8 /* LDBusMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusMediator.m; sourceTree = "<group>"; };
+		B1ADE90A1F42E4EC00CFD1B8 /* LDBusMediatorTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusMediatorTipViewController.h; sourceTree = "<group>"; };
+		B1ADE90B1F42E4EC00CFD1B8 /* LDBusMediatorTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusMediatorTipViewController.m; sourceTree = "<group>"; };
+		B1ADE90C1F42E4EC00CFD1B8 /* LDBusNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusNavigator.h; sourceTree = "<group>"; };
+		B1ADE90D1F42E4EC00CFD1B8 /* LDBusNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusNavigator.m; sourceTree = "<group>"; };
+		B1ADE90E1F42E4EC00CFD1B8 /* UIViewController+NavigationTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationTip.h"; sourceTree = "<group>"; };
+		B1ADE90F1F42E4EC00CFD1B8 /* UIViewController+NavigationTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationTip.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1ADE9031F42D6F000CFD1B8 /* Foundation.framework in Frameworks */,
+				B1ADE9011F42D6E800CFD1B8 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +106,7 @@
 				B1ADE8D51F42D43900CFD1B8 /* BusTests */,
 				B1ADE8E01F42D43A00CFD1B8 /* BusUITests */,
 				B1ADE8BA1F42D43900CFD1B8 /* Products */,
+				B1ADE8FF1F42D6E800CFD1B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,7 +123,7 @@
 		B1ADE8BB1F42D43900CFD1B8 /* Bus */ = {
 			isa = PBXGroup;
 			children = (
-				B1ADE8EF1F42D52E00CFD1B8 /* LDBusMediator */,
+				B1ADE9061F42E4EC00CFD1B8 /* Bus */,
 				B1ADE8BF1F42D43900CFD1B8 /* AppDelegate.h */,
 				B1ADE8C01F42D43900CFD1B8 /* AppDelegate.m */,
 				B1ADE8C21F42D43900CFD1B8 /* ViewController.h */,
@@ -157,21 +164,29 @@
 			path = BusUITests;
 			sourceTree = "<group>";
 		};
-		B1ADE8EF1F42D52E00CFD1B8 /* LDBusMediator */ = {
+		B1ADE8FF1F42D6E800CFD1B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B1ADE8F01F42D52E00CFD1B8 /* LDBusConnectorPrt.h */,
-				B1ADE8F11F42D52E00CFD1B8 /* LDBusMediator.h */,
-				B1ADE8F21F42D52E00CFD1B8 /* LDBusMediator.m */,
-				B1ADE8F31F42D52E00CFD1B8 /* LDBusMediatorTipViewController.h */,
-				B1ADE8F41F42D52E00CFD1B8 /* LDBusMediatorTipViewController.m */,
-				B1ADE8F51F42D52E00CFD1B8 /* LDBusNavigator.h */,
-				B1ADE8F61F42D52E00CFD1B8 /* LDBusNavigator.m */,
-				B1ADE8F71F42D52E00CFD1B8 /* UIViewController+NavigationTip.h */,
-				B1ADE8F81F42D52E00CFD1B8 /* UIViewController+NavigationTip.m */,
+				B1ADE9021F42D6F000CFD1B8 /* Foundation.framework */,
+				B1ADE9001F42D6E800CFD1B8 /* UIKit.framework */,
 			);
-			name = LDBusMediator;
-			path = Bus/LDBusMediator;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1ADE9061F42E4EC00CFD1B8 /* Bus */ = {
+			isa = PBXGroup;
+			children = (
+				B1ADE9071F42E4EC00CFD1B8 /* LDBusConnectorPrt.h */,
+				B1ADE9081F42E4EC00CFD1B8 /* LDBusMediator.h */,
+				B1ADE9091F42E4EC00CFD1B8 /* LDBusMediator.m */,
+				B1ADE90A1F42E4EC00CFD1B8 /* LDBusMediatorTipViewController.h */,
+				B1ADE90B1F42E4EC00CFD1B8 /* LDBusMediatorTipViewController.m */,
+				B1ADE90C1F42E4EC00CFD1B8 /* LDBusNavigator.h */,
+				B1ADE90D1F42E4EC00CFD1B8 /* LDBusNavigator.m */,
+				B1ADE90E1F42E4EC00CFD1B8 /* UIViewController+NavigationTip.h */,
+				B1ADE90F1F42E4EC00CFD1B8 /* UIViewController+NavigationTip.m */,
+			);
+			path = Bus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,12 +323,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1ADE8FA1F42D52E00CFD1B8 /* LDBusMediatorTipViewController.m in Sources */,
+				B1ADE9111F42E4EC00CFD1B8 /* LDBusMediatorTipViewController.m in Sources */,
 				B1ADE8C41F42D43900CFD1B8 /* ViewController.m in Sources */,
-				B1ADE8FB1F42D52E00CFD1B8 /* LDBusNavigator.m in Sources */,
-				B1ADE8F91F42D52E00CFD1B8 /* LDBusMediator.m in Sources */,
+				B1ADE9121F42E4EC00CFD1B8 /* LDBusNavigator.m in Sources */,
+				B1ADE9101F42E4EC00CFD1B8 /* LDBusMediator.m in Sources */,
 				B1ADE8C11F42D43900CFD1B8 /* AppDelegate.m in Sources */,
-				B1ADE8FC1F42D52E00CFD1B8 /* UIViewController+NavigationTip.m in Sources */,
+				B1ADE9131F42E4EC00CFD1B8 /* UIViewController+NavigationTip.m in Sources */,
 				B1ADE8BE1F42D43900CFD1B8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
